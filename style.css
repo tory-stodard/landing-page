@@ -77,26 +77,20 @@ a{
 
 .section-two{
     background-color: #AEFEFF;
-    color: #072227;
-    font-weight: bold;
     height: 600px;
 }
 
-.row-of-images{
+.s2-flex-container{
     display: flex;
     justify-content: space-between;
 }
 
-.section-two-images{
-  background-color: #35858B;
-}
+.s2-image{
+    height: 100px;
+    width: 100px;
+    background-color: #35858B;
 
-.image-caption{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
 }
-
 
 
 
