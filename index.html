@@ -4,42 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="section-one">
-        <div class="header">
-            <div class="header-left">
-                <p>Header Logo</p>
-            </div>
-            <div class="header-right">
-                <a class="light-green link" href="#">link one</a>
-                <a class="light-green link" href="#">link two</a>
-                <a class="light-green link" href="#">link three</a>
-
-            </div>
+        <div class="flex-container">
+            <nav class="header-left">
+                <p>Deanna's Bakery</p>
+            </nav>
+            <nav class="header-right">
+                <p><a href="#">about</a></p>
+                <p><a href="#">contact</a></p>
+                <p><a href="#">locations</a></p>
+            </nav>
         </div>
-        <div class="content">
-            <div class="content-left">
-                <h1>This Website Is Awesome</h1>
-                <p class="light-green">This is a paragraph that goes under the main heading of this section. Possible a mission statement or something to get the attention of the viewer.</p>
-                <button class="sign-up">Sign Up</button>
+        <div class="flex-container">
+            <div class="section-one-left">
+                <h1>We Bake The Best Treats!</h1>
+                <p class="s1-left-p">Got a sweet tooth? You're in the right place! From cakes and donuts, to ice-cream, cookies and macoroons. We have it all.</p>
+                <button class="order-button">Place Order</button>
             </div>
-            <div class="content-right">
-                <p class="picture-p">This is a placeholder for an image.</p>
+            <div class="section-one-right">
+                <img class="cupcake-picture"src="images/pexels-los-muertos-crew-8477969.jpg" alt="pictrue of cupcakes">
             </div>
         </div>
     </div>
     <div class="section-two">
-        <h2><strong>Random Information</strong></h2>
+        <h2>Check Out Some Of Our Favorites</h2>
+        <div class="flex-container-center">
+            <img class="s2-images" src="images/cake.jpg" alt="picture of cake">
+            <img class="s2-images" src="images/macaroons.jpg" alt="picture of macaroons">
+            <img class="s2-images" src="images/donuts.jpg" alt="picture of donuts">
+            <img class="s2-images" src="images/cinammonroll.jpg" alt="picture of cinammon rolls">
+        </div>
+        <div class="flex-container-center">
+            <p class="s2-p">Birthday. Weeding. Party...Just because. We make all our cakes to order.</p>
+            <p class="s2-p">Felling fance? Our macaroons are top tier and will leave you wanting more with every bite.</p>
+            <p class="s2-p">A classic done right. Why settle for anything less.</p>
+            <p class="s2-p">Breakfast of champions. Our cinammon rolls are made fresh every morning</p>
+        </div>
     </div>
-        <div class="s2-flex-container">
-            <div class="s2-image"></div>
-            <div class="s2-image"></div>
-            <div class="s2-image"></div>
-            <div class="s2-image"></div>
-        </div>    
-    
+    <div class="section-three">
+        <h3>
+            You don't have to love cooking to cook, but you have to do more than love baking to bake. You have to bake out of love.
+        </h3>
+        <p class="s3-p">Tom Junod</p>
+    </div>
 </body>
 </html>
