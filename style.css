@@ -69,7 +69,7 @@ h1 {
     border-radius: 8px;
     border: none;
     background-color: #FF7BA9;
-    color: #C1F4C5
+    color: #C1F4C5;
 }
 .section-one-right {
     margin-top: 8%;
@@ -112,21 +112,82 @@ h2 {
 .section-three {
     height: 425px;
     background-color: #C1F4C5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-h3 {
+.quote {
     color: #FF7BA9;
     font-size: 34px;
-    margin-top: 2%;
     margin-left: 5%;
+    margin-right: 5%;
+    font-family: cursive;
+}
+
+.signature{
+    color: #65C18C;
+    margin-left: 25%;
+}
+
+.section-four {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-containter{
+    height: 150px;
+    width: 800px;
+    border-radius: 8px;
+    background-color: #65C18C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-left {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-p1{
+    font-family: cursive;
+    font-size: 32px;
+    color: #FFBED8;
+}
+
+.cta-p2 {
+    color: #C1F4C5;
+}
+
+.cta-right {
     margin-right: 5%;
 }
 
-.s3-p{
-    color: #65C18C;
-    text-align: end;
+.order-button-two{
+    border-radius: 8px;
+    border: none;
+    background-color: #FF7BA9;
+    color: #C1F4C5;
+    padding: 20px;
+    width: 200px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #65C18C;
+    color: #FFBED8;
+    font-size: 18px;
+}
 
 
 
